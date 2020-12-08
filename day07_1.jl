@@ -17,12 +17,9 @@ end
 contains_gold = 0
 for (bag_type, bags) in rules
     global contains_gold
-    used_bags = Set()
-    heap_bags = Set()
-    push!(heap_bags, bag_type)
-    push!(used_bags, bag_type)
-    
-    
+    used_bags = Set(); push!(used_bags, bag_type)
+    heap_bags = Set(); push!(heap_bags, bag_type)
+        
     while length(heap_bags) > 0
         for bag_type_current in heap_bags
             push!(used_bags, bag_type_current)
@@ -36,13 +33,10 @@ for (bag_type, bags) in rules
                 end
             end
         end
-        
     end
     if bag_type != "shiny gold" && in("shiny gold", used_bags)
         contains_gold += 1
-        # println(bag_type, " ", used_bags)
-    end
-    
+    end 
 end
 
 println(contains_gold)
