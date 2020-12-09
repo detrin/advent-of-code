@@ -2,7 +2,7 @@
 
 valid = 0
 
-open("day02_1.in") do io
+open("day02/day02.in") do io
     global valid
     for line in readlines(io)
         range_all, target_char, test_string = split(line, " ")

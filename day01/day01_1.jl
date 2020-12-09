@@ -1,7 +1,7 @@
 
 input_nums = zeros(Bool, 2021)
 
-open("day01_1.in") do io
+open("day01/day01.in") do io
     for line in readlines(io)
         num = parse(Int32, line)
         input_nums[parse(Int32, line)] = true

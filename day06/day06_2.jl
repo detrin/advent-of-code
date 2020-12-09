@@ -1,5 +1,5 @@
 
-open("day06_1.in") do io
+open("day06/day06.in") do io
     answers = Dict()
     answers_count = 0
     group_count = 0

@@ -1,6 +1,6 @@
 
 rules = Dict()
-open("day07_1.in") do io
+open("day07/day07.in") do io
     global rules
     for line in readlines(io)
         line = replace(line, ("." => ""))

@@ -1,7 +1,7 @@
 
 code_dic = Dict()
 code = []
-open("day09_1.in") do io
+open("day09/day09.in") do io
     line_num = 1
     global instructions
     for line in readlines(io)

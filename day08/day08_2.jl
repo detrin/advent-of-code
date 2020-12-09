@@ -1,6 +1,6 @@
 
 instructions = []
-open("day08_1.in") do io
+open("day08/day08.in") do io
     global instructions
     for line in readlines(io)
         line = split(line, " ")

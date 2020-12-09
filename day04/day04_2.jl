@@ -1,7 +1,7 @@
 
 map_str = ""
 passports = []
-open("day04_1.in") do io
+open("day04/day04.in") do io
     global map_str, passports
     for line in readlines(io)
         line = line * " "

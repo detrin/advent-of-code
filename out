@@ -1,0 +1,36 @@
+day01/day01_1.jl
+  39.044 ms (30575 allocations: 1.66 MiB)
+day01/day01_2.jl
+  65.216 ms (437369 allocations: 8.95 MiB)
+day02/day02_1.jl
+  61.838 ms (45154 allocations: 2.44 MiB)
+day02/day02_2.jl
+  45.409 ms (31359 allocations: 1.81 MiB)
+day03/day03_1.jl
+  45.668 ms (19341 allocations: 2.51 MiB)
+day03/day03_2.jl
+  47.208 ms (21667 allocations: 2.56 MiB)
+day04/day04_1.jl
+  56.347 ms (43574 allocations: 2.18 MiB)
+day04/day04_2.jl
+  150.316 ms (103979 allocations: 5.15 MiB)
+day05/day05_1.jl
+  57.098 ms (51875 allocations: 2.61 MiB)
+day05/day05_2.jl
+  69.586 ms (68613 allocations: 3.61 MiB)
+day06/day06_1.jl
+  47.126 ms (37547 allocations: 2.29 MiB)
+day06/day06_2.jl
+  100.945 ms (62217 allocations: 3.51 MiB)
+day07/day07_1.jl
+  171.647 ms (340837 allocations: 11.86 MiB)
+day07/day07_2.jl
+  90.081 ms (79381 allocations: 4.92 MiB)
+day08/day08_1.jl
+  54.965 ms (21625 allocations: 1.09 MiB)
+day08/day08_2.jl
+  106.489 ms (63270 allocations: 2.91 MiB)
+day09/day09_1.jl
+  62.998 ms (95950 allocations: 2.65 MiB)
+day09/day09_2.jl
+  104.625 ms (175780 allocations: 4.03 MiB)

@@ -1,7 +1,7 @@
 
 map_str = ""
 width, height = Int32(0), Int32(0)
-open("day03_1.in") do io
+open("day03/day03.in") do io
     global map_str, width, height
     for line in readlines(io)
         map_str = map_str * line
@@ -19,8 +19,6 @@ function encounters(right::Int64, down::Int64)::Int64
         if map_str[(posy-1)*width+posx] == '#'
             tree_count += 1
         end
-        # println(posx, " ", posy, " ", map_str[(posy-1)*width+posx], " ", tree_count)
-        
         posx = (posx+right-1) % width + 1
         posy = posy+down
         

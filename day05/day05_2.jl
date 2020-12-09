@@ -2,7 +2,7 @@
 seats_check = zeros(Bool, 2^10)
 
 seats = []
-open("day05_1.in") do io
+open("day05/day05.in") do io
     global map_str, passports
     for line in readlines(io)
         push!(seats, line)
